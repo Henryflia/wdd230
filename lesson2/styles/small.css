@@ -1,0 +1,101 @@
+
+@media only screen and (max-width: 600px) {
+
+main{
+    display: grid;
+    grid-template-columns: 10% 1fr 1fr 1fr 10%;
+}
+.blockone{
+    grid-column: 1/3;
+    background-color:#DCDCDD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid black;
+    width: 400px;
+    margin: 20px;
+    margin-left: 130px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.blocktwo{
+    grid-column: 1/3;
+    background-color:#DCDCDD;
+    width: 400px;
+    border: 3px solid black;
+    padding: 0px;
+    margin: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 130px;
+}
+.blockthree{
+    grid-column: 1/3;
+    background-color: #DCDCDD;
+    border: 3px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 130px;
+}
+.visualimg{
+    width: 360px;
+}
+.alignmentimg{
+    width: 360px;
+    height: 755px;
+}
+.whiteimg{
+    width: 360px;
+}
+h2{
+    background-color: #1985A1;
+    height: 40px;
+    width: 395px;
+    box-sizing: 50px;
+    margin-top: -2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid black;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #DCDCDD
+}
+header{
+    background-color: #4C5C68;
+    text-align: center;
+    /* margin: 0 90px 0 140px; */
+    font-family: 'Montserrat', sans-serif;
+    width: 290%;
+    height: 100px;
+}
+footer{
+    background-color: #4C5C68;
+    text-align: center;
+    margin: 0 90px 50px 10px;
+    width: 270%;
+    font-family: 'Montserrat', sans-serif;
+    color: #DCDCDD
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-align: left;
+}
+img{
+    margin-left: 20px;
+}
+h1{
+    color: #DCDCDD;
+}
+#title{
+    margin-top: 15%;
+}
+}

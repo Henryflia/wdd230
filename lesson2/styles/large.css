@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.blockone{
+    grid-column: 2/3;
+    background-color:#DCDCDD;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid black;
+    width: 400px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.blocktwo{
+    grid-column: 3/4;
+    background-color:#DCDCDD;
+    width: 400px;
+    border: 3px solid black;
+    padding: 0px;
+    margin: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.blockthree{
+    grid-column: 4/5;
+    background-color: #DCDCDD;
+    border: 3px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 400px;
+    margin: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.visualimg{
+    width: 360px;
+}
+.alignmentimg{
+    width: 360px;
+    height: 755px;
+}
+.whiteimg{
+    width: 360px;
+}
+h2{
+    background-color: #1985A1;
+    height: 40px;
+    width: 395px;
+    box-sizing: 50px;
+    margin-top: -2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 3px solid black;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: #DCDCDD
+}
+header{
+    background-color: #4C5C68;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 83%;
+    margin-left: 140px;
+}
+footer{
+    background-color: #4C5C68;
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 120px;
+    font-family: 'Montserrat', sans-serif;
+    color: #DCDCDD
+}
+
+.text {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-align: left;
+}
+img{
+    margin-left: 20px;
+}
+h1{
+    color: #DCDCDD;
+}
+#title{
+    margin-top: 15%;
+}

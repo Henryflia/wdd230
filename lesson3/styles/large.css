@@ -1,0 +1,31 @@
+@media only screen and (min-width: 600px) and (max-width: 768px){
+    body {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    nav ul{
+        display: flex;
+        text-align: center;
+    }
+    nav ul li{
+        flex: 1 1 auto;
+        text-align: center;
+    }   
+    main{
+        text-align: left;
+    }
+    header{
+        margin: 0 auto;
+        text-align: center;
+        
+    }
+    main header footer {
+            max-width: 1000px;
+    }
+   
+   
+
+    
+    
+
+}

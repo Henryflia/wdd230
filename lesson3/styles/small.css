@@ -1,0 +1,124 @@
+:root {
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto Slab', sans-serif;
+    --color1: #5386E4;
+    --color2: #4C4B63;
+    --color3: #E7FFA5;
+    --color4: #E9E9E9;
+    --body: #D7F4F7;
+    
+}
+body{
+    line-height: 1.2em;
+    margin: 0 auto;
+    background-color: var(--body);
+}
+header h1 {
+    font-family: var(--roboto);
+    background-color: var(--color1);
+    color: var(--color3);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+
+}
+nav ul{
+    background-color: var(--color2);
+    list-style: none;
+    padding: 12px;
+    color: var(--color4);
+    text-decoration: none;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav ul li a{
+    color: var(--color4);
+    font-family: var(--roboto);
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    font-family: var(--roboto);
+    margin-left: 5px;
+    font-size: 24px;
+    color: var(--color1);
+}
+.text{
+    font-family: var(--inter);
+    font-size: 16px;
+    margin-left: 5px;
+    color: black;
+}
+footer{
+    background-color: var(--color2);
+    text-align: center;
+    padding: 0.1px;
+    font-family: var(--roboto);
+    color: var(--color4);
+}
+table td {
+    border: 2px solid var(--color2);
+    height: 10vh;
+}
+th{
+    border: 2px solid var(--color2);
+    font-size: 20px;
+    background-color: var(--color3);
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table{
+    margin: 0 auto;
+    height: 10em;
+    margin-bottom: 10px;
+}
+.header{
+    font-size: 32px;
+    font-family: var(--roboto);
+    background-color: var(--color1);
+    color: var(--color3);
+}
+.navegation{
+    font-size: 20px;
+    font-family: var(--roboto);
+    background-color: var(--color2);
+    color: var(--color4);
+}
+.h2h6{
+    font-family: var(--roboto);
+    font-size: 24px;
+    color: var(--color1);
+}
+.paragrafh{
+    font-family: var(--inter);
+    font-size: 16px;
+    color: black;
+}
+.footer{
+    font-family: var(--roboto);
+    background-color: #4C4B63;
+    font-size: 20px;
+    color: var(--color4);
+}
+.color{
+    width: 80%;
+    margin: 0 auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    padding-left: 50px;
+    /* margin-right: auto ; */
+}
+.logo{
+    width: 15%;
+    border-radius: 100%;
+    height: 90px;
+    margin-left: 10px;
+}
+picture{
+    margin: 0 auto;
+}

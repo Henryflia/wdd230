@@ -1,0 +1,30 @@
+@media only screen and (min-width: 37.5em) {
+    nav ul{
+        display: flex;
+        text-align: center;
+    }
+    nav ul li{
+        flex: 1 1 auto;
+    }   
+    body{
+        margin: 0 auto;
+        max-width: 700px;
+    }
+    main header footer{
+
+    margin: 0 auto;
+    }
+    header{
+    text-align: center;
+    }
+    footer{
+
+    }
+    .color{
+
+
+    }
+    .logo{
+    margin-left: 10px;
+    }
+}

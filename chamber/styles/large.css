@@ -1,0 +1,161 @@
+@media screen and (min-width: 65em){
+    
+    body{
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    header nav .navigation {
+	    display: flex; 
+        justify-content: flex-start;
+        /* width: 100%;  */
+	}
+	header nav .navigation li {
+		display: block; 
+        flex: 1 1 auto;
+        text-align: center;
+        /* width: 100%; */
+        
+	}
+	header nav .navigation a {
+		text-align: center;
+        /* width: 100%;  */
+        background-color: var(--color2);
+        margin: 0 auto;
+        border: none;
+        padding: 30px;
+	}
+	header nav .navigation li:first-child {
+		display: none;
+    }
+    header nav{
+        padding: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin: 0;
+        width: 100%; 
+        flex: 1 1 1 auto;
+        justify-content: flex-start;
+    }
+    header div .logo{
+        width: 13%;
+        margin-left: 70px;
+        margin-top: 40px;
+    }
+    header div .icon {
+        width: 10%;
+        float: left;
+        grid-column: 2/3;
+        grid-row: 2/3;
+        margin-right: 15px;
+    }
+    header nav {
+        max-width: auto;
+    }
+    header .title{
+        text-align: center;
+        font-size: 36px;
+        margin-left: 45px;
+        margin-top: 5px;
+    }
+    header .title2{
+        text-align: center;
+        font-size: 24px;
+        margin-left: 50px;
+        margin-top: 70px;
+    }
+    header .date{
+        text-align: center;
+        font-size: 16px;
+        margin-left: 40px;
+        margin-top: 115px;
+    }
+    header div{
+        padding: 0px;
+    }
+    footer .logo2{
+        width: 30%;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    footer .footertitle{
+        margin-left: 180px;
+        grid-column: 2/3;
+        /* margin-top: 20px */
+    }
+    footer .footerp{
+        grid-column: 2/3;
+        margin-left: px;
+        margin-top: 50px
+    }
+    footer .footerpa{
+        grid-column: 2/3;
+        
+    }
+    footer .footerpar{
+        grid-column: 2/3;
+        margin-left: 280px;
+        margin-top: 95px
+    }
+    footer .footerparg{
+        grid-column: 2/3;
+        margin-left: 180px;
+        margin-top: 120px;
+    }
+    footer .location{
+        grid-column: 2/3;
+        margin-left: 180px;
+        margin-top: 150px;
+    }
+    footer .maplocation{
+        grid-column: 2/3;
+        margin-left: 250px;
+        margin-top: 160px;
+    }
+    footer .footerinfo{
+        text-align: center;
+    }
+    header h1{
+        font-size: 46px;
+    }
+    main .event{
+        width: 370px;
+        height: 400px;
+    }
+    main .news{
+        width: 570px;
+        height: 400px;
+    }
+    main .join{
+        width: 570px;
+        height: 400px;
+    }
+    main .hero{
+        width: 570px;
+        height: 400px;
+    }
+    main .weather{
+        width: 570px;
+        height: 400px;
+    }
+    main .spotlight{
+        width: 570px;
+        height: 400px;
+    }
+    main .spotlight .one{
+        width: 260px;
+        height: 380px;
+    }
+    main .spotlight .two{
+        width: 260px;
+        height: 380px;
+        grid-column: 2/3;
+    }
+    main .spotlight .three{
+        width: 260px;
+        height: 380px;
+        grid-column: 2/3;
+    }
+}

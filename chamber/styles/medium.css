@@ -1,0 +1,107 @@
+@media screen and (min-width: 37.5em) {
+
+        header .title{
+            text-align: center;
+            font-size: 36px;
+            margin-left: 45px;
+            margin-top: 5px;
+        }
+        header .title2{
+            text-align: center;
+            font-size: 24px;
+            margin-left: 50px;
+            margin-top: 70px;
+        }
+        header .date{
+            text-align: center;
+            font-size: 16px;
+            margin-left: 40px;
+            margin-top: 115px;
+    }
+    header .logo{
+        width: 20%;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    header .icon{
+        display: flex;
+        grid-column: 2/3;
+        margin-left: 110px;
+    }
+    header .icon .icons{
+        flex: 1 auto;
+    }
+	
+    footer .logo2{
+        width: 40%;
+    }
+    footer .footertitle{
+        margin-left: 180px;
+        /* margin-top: 20px */
+    }
+    footer .footerp{
+        margin-left: 180px;
+        margin-top: 50px
+    }
+    footer .footerpa{
+        margin-left: 180px;
+        margin-top: 70px;
+    }
+    footer .footerpar{
+        margin-left: 180px;
+        margin-top: 95px
+    }
+    footer .footerparg{
+        margin-left: 180px;
+        margin-top: 120px;
+    }
+    footer .location{
+        margin-left: 180px;
+        margin-top: 150px;
+    }
+    footer .maplocation{
+        margin-left: 250px;
+        margin-top: 160px;
+    }
+    footer .footerinfo{
+        text-align: center;
+    }
+    main .event{
+        width: 570px;
+        height: 400px;
+    }
+    main .news{
+        width: 570px;
+        height: 400px;
+    }
+    main .join{
+        width: 570px;
+        height: 400px;
+    }
+    main .hero{
+        width: 570px;
+        height: 400px;
+    }
+    main .weather{
+        width: 570px;
+        height: 400px;
+    }
+    main .spotlight{
+        width: 570px;
+        height: 400px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    main .spotlight .one{
+        width: 260px;
+        height: 380px;
+    }
+    main .spotlight .two{
+        width: 260px;
+        height: 380px;
+        grid-column: 2/3;
+    }
+    .three{
+        display: none
+    }
+}

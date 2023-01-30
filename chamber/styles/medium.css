@@ -90,16 +90,19 @@
         width: 570px;
         height: 400px;
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
     main .spotlight .one{
         width: 260px;
         height: 380px;
+        grid-column: 1/2;
     }
     main .spotlight .two{
         width: 260px;
         height: 380px;
-        grid-column: 2/3;
+        float: right;
+        margin-top: 10px;
+       
     }
     .three{
         display: none

@@ -1,7 +1,7 @@
-@media screen and (min-width: 65em){
+@media only screen and (min-width: 65em){
     
     body{
-        max-width: 1600px;
+        max-width: 1050px;
         margin: 0 auto;
     }
     header nav .navigation {
@@ -33,7 +33,7 @@
         margin-right: 0px;
         margin: 0;
         width: 100%; 
-        flex: 1 1 1 auto;
+        flex: 1 1 auto;
         justify-content: flex-start;
     }
     header div .logo{
@@ -48,9 +48,7 @@
         grid-row: 2/3;
         margin-right: 15px;
     }
-    header nav {
-        max-width: auto;
-    }
+
     header .title{
         text-align: center;
         font-size: 36px;
@@ -78,7 +76,7 @@
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
     }
     footer .footertitle{
         margin-left: 180px;
@@ -87,7 +85,6 @@
     }
     footer .footerp{
         grid-column: 2/3;
-        margin-left: px;
         margin-top: 50px
     }
     footer .footerpa{
@@ -121,41 +118,78 @@
         font-size: 46px;
     }
     main .event{
-        width: 370px;
-        height: 400px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 270px;
+        max-height: 240px;
     }
     main .news{
-        width: 570px;
-        height: 400px;
+        max-width: 270px;
+        max-height: 240px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-top: 260px;
     }
     main .join{
-        width: 570px;
-        height: 400px;
+        grid-column: 1/2;
+        grid-row: 1/2;
+        max-width: 270px;
+        max-height: 240px;
+        margin-top: 515px;
     }
     main .hero{
-        width: 570px;
-        height: 400px;
+        max-width: 450px;
+        max-height: 470px;
+        grid-column: 2/3;
+        grid-row: 1/2;
     }
     main .weather{
-        width: 570px;
-        height: 400px;
+        max-width: 450px;
+        max-height: 335px;
+        grid-column: 2/3;
+        grid-row: 1/1;
+        margin-top: 420px;
     }
     main .spotlight{
-        width: 570px;
-        height: 400px;
+        max-width: 0px;
+        max-height: 0px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 30%;
+        grid-column: 3/4;
+        grid-row: 1/4;
+        display: none;
     }
     main .spotlight .one{
-        width: 260px;
-        height: 380px;
+        width: 200px;
+        max-height: 230px;
+        grid-column: 1/1;
+        grid-row: 1/2;
+        border: 5px solid var(--color4);
+        margin-left: 0px;
+        margin-right: 10px;
+        float: lefta;
+        
+
     }
     main .spotlight .two{
-        width: 260px;
-        height: 380px;
-        grid-column: 2/3;
+        width: 230px;
+        max-height: 240px;
+        grid-column: 1/1;
+        grid-row: 2/3;
+        margin-top: 10em;
+        border: 5px solid var(--color4);
+        margin-left: 0px;
+        /* display: block; */
     }
     main .spotlight .three{
         width: 260px;
-        height: 380px;
-        grid-column: 2/3;
+        max-height: 235px;
+        display: block ;
+        grid-column: 1/1;
+        border: 5px solid var(--color4);
+        margin-left: 0px;
+    }
+    footer{
+        margin-top: 10px;
     }
 }

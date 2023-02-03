@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">    
+    <title>Book of Mormon Top</title>
+  </head>
+  <body>
+
+    <h1>📖 Book of Mormon - Top 10</h1>
+    <main>
+      <label for="favchap">Enter Book and Chapter: </label>
+      <input type="text" id="favchap" placeholder="Alma 5" value="Alma 5">
+      <button type="submit">Add Chapter</button>
+      <ul id="list"></ul>
+    </main>
+
+
+  </body>
+  <script>
+    const ul = document.querySelector('#list');
+    const input = document.querySelector('input');
+    const button = document.querySelector('button');
+    button.addEventListener("click", () => {
+      const inputvalue = input.value
+     
+    const list = document.createElement('li');
+    const button2 = document.createElement('button');
+    list.innerHTML = input
+   
+    list.textContent = input.value
+    list.appendChild(button2);
+    button2.textContent = "❌";
+    ul.appendChild(list);
+    button2.addEventListener('click', function() {
+      ul.removeChild(list)    
+    })
+    input.focus()
+    input.value = '';
+  })
+  </script>
+</html>

@@ -24,6 +24,9 @@
         border: none;
         padding: 30px;
 	}
+    header nav .navigation a:hover {
+        background-color: var(--color1);
+	}
 	header nav .navigation li:first-child {
 		display: none;
     }
@@ -71,37 +74,39 @@
         padding: 0px;
     }
     footer .logo2{
-        width: 30%;
+        max-width: 40%;
+        position: relative;
+       
     }
     main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
     }
-    footer .footertitle{
+    footer div .footertitle{
         margin-left: 180px;
         grid-column: 2/3;
         /* margin-top: 20px */
     }
-    footer .footerp{
+    footer div .footerp{
         grid-column: 2/3;
         margin-top: 50px
     }
-    footer .footerpa{
+    footer div .footerpa{
         grid-column: 2/3;
         
     }
-    footer .footerpar{
+    footer div .footerpar{
         grid-column: 2/3;
         margin-left: 280px;
         margin-top: 95px
     }
-    footer .footerparg{
+    footer div .footerparg{
         grid-column: 2/3;
         margin-left: 180px;
         margin-top: 120px;
     }
-    footer .location{
+    footer div .location{
         grid-column: 2/3;
         margin-left: 180px;
         margin-top: 150px;
@@ -121,34 +126,45 @@
         grid-column: 1/2;
         grid-row: 1/2;
         max-width: 270px;
-        max-height: 240px;
+        max-height: 210px;
     }
-    main .news{
+    main .weather{
         max-width: 270px;
-        max-height: 240px;
+        max-height: 220px;
         grid-column: 1/2;
         grid-row: 1/2;
         margin-top: 260px;
+        position: relative;
+        bottom:33px
     }
     main .join{
         grid-column: 1/2;
         grid-row: 1/2;
         max-width: 270px;
-        max-height: 240px;
+        max-height: 210px;
         margin-top: 515px;
+        position: absolute;
+        top:285px
     }
     main .hero{
-        max-width: 450px;
-        max-height: 470px;
+        max-width: 470px;
+        max-height: 600px;
         grid-column: 2/3;
         grid-row: 1/2;
+        position: relative;
+        right: 14px;
     }
-    main .weather{
+    main .hero .heroimg{
+        max-height: 40000px;
+    }
+    main .news{
         max-width: 450px;
-        max-height: 335px;
+        max-height: 450px;
         grid-column: 2/3;
         grid-row: 1/1;
         margin-top: 420px;
+        position: relative;
+        right: 10px;
     }
     main .spotlight{
         max-width: 0px;
@@ -158,22 +174,25 @@
         grid-column: 3/4;
         grid-row: 1/4;
         display: none;
+        position: relative;
+        right: 30px;
+        border: none
     }
     main .spotlight .one{
         width: 200px;
-        max-height: 230px;
+        max-height: 210px;
         grid-column: 1/1;
         grid-row: 1/2;
         border: 5px solid var(--color4);
         margin-left: 0px;
         margin-right: 10px;
-        float: lefta;
+        float: left;
         
 
     }
     main .spotlight .two{
         width: 230px;
-        max-height: 240px;
+        max-height: 210px;
         grid-column: 1/1;
         grid-row: 2/3;
         margin-top: 10em;
@@ -183,13 +202,24 @@
     }
     main .spotlight .three{
         width: 260px;
-        max-height: 235px;
+        max-height: 210px;
         display: block ;
         grid-column: 1/1;
         border: 5px solid var(--color4);
         margin-left: 0px;
     }
-    footer{
+    footer .footerdiv{
         margin-top: 10px;
+        position: relative;
+        right: 50px;
     }
+    .castle{
+        max-width: 50px;
+    }
+    .icon{
+        position: relative;
+        left: 200px;
+        
+    }
+
 }

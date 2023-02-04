@@ -21,7 +21,7 @@
     text-align: right;
     grid-row: 1/2;
     margin-right: 10px;
-    font-size: 28px;
+    font-size: 30px;
     color: var(--color3)
 }
 .title2{
@@ -126,25 +126,25 @@ footer{
 .footerp{
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 75px;
+    margin-top: 0px;
     margin-left: 130px;
 }
 .footerpa{
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 95px;
+    margin-top: 0px;
     margin-left: 130px;
 }
 .footerpar{
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 135px;
+    margin-top: 0px;
     margin-left: 130px;
 }
 .footerparg{
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 155px;
+    margin-top: 0px;
     margin-left: 130px;
 }
 p{
@@ -158,18 +158,20 @@ h2{
 .location{
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 175px;
+    margin-top: 0px;
     margin-left: 130px;
 }
 .maplocation{
     grid-column: 1/3;
     grid-row: 1/2;
-    margin-top: 185px;
+    margin-top: 0px;
     margin-left: 180px;
     color: var(--color1);
 }
 .footerinfo{
     grid-column: 1/3;
+    text-align: center;
+    font-size: 15px;
 }
 .center{
     text-align: center;
@@ -177,38 +179,42 @@ h2{
 .event{
     border: thin solid var(--color2); 
     background-color: var(--color2);
+    border: 5px solid var(--color3);
     margin-top: 5px;
-    width: 320px;
-    height: 300px;
-    color: black;
+    width: 380px;
+    height: 240px;
+    border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
     box-shadow: #5c5c5d;
+    
 
 }
 .news{
     border: thin solid var(--color2); 
     background-color: var(--color2);
+    border: 5px solid var(--color3);
     margin-top: 5px;
-    width: 320px;
-    height: 300px;
-    color: black;
+    width: 380px;
+    height: 265px;
     margin-left: 10px;
     margin-right: 10px;
+    border-radius: 10px;
 }
 .join{
     border: thin solid var(--color2); 
     background-color: var(--color2);
+    border: 5px solid var(--color3);
     margin-top: 5px;
-    width: 320px;
-    height: 300px;
+    width: 380px;
+    height: 250px;
+    border-radius: 10px;
     color: black;
     margin-left: 10px;
     margin-right: 10px;
 }
 .hero{
     border: thin solid var(--color2); 
-    background-color: var(--color2);
     margin-top: 5px;
     width: 320px;
     height: 300px;
@@ -219,9 +225,11 @@ h2{
 .weather{
     border: thin solid var(--color2); 
     background-color: var(--color2);
+    border: 5px solid var(--color3);
     margin-top: 5px;
-    width: 320px;
-    height: 300px;
+    width: 380px;
+    height: 275px;
+    border-radius: 10px;
     color: black;
     margin-left: 10px;
     margin-right: 10px;
@@ -230,18 +238,19 @@ h2{
     border: thin solid var(--color2); 
     background-color: var(--color2);
     margin-top: 5px;
-    width: 320px;
-    height: 1240px;
+    width: 380px;
+    height: 940px;
     color: black;
     margin-left: 10px;
     margin-right: 10px;
+    border: 5px solid var(--color3);
 }
 .one{
     border: thin solid var(--color4); 
     background-color: var(--color2);
     margin-top: 5px;
-    width: 290px;
-    height: 400px;
+    width: 360px;
+    height: 300px;
     color: black;
     margin-left: 10px;
     /* margin-right: 10px; */
@@ -250,8 +259,8 @@ h2{
     border: thin solid var(--color4); 
     background-color: var(--color2);
     margin-top: 5px;
-    width: 290px;
-    height: 400px;
+    width: 360px;
+    height: 300px;
     color: black;
     margin-left: 10px;
     /* margin-right: 10px; */
@@ -260,8 +269,8 @@ h2{
     border: thin solid var(--color4); 
     background-color: var(--color2);
     margin-top: 5px;
-    width: 290px;
-    height: 400px;
+    width: 360px;
+    height: 300px;
     color: black;
     margin-left: 10px;
     /* margin-right: 10px; */
@@ -272,3 +281,88 @@ li{
 main{
     text-align: center;
 }
+a:hover{
+    background-color: var();
+}
+#banner{
+    background-color: var(--color2);
+    border: 5px solid var(--color3);
+    padding: 20px;
+    text-align: center;
+    display: none;
+    color: var(--color4);
+}
+.footerdiv{
+    position: relative;
+    right: 40px;
+}
+.heroimg{
+    border: thin solid var(--color2); 
+    /* margin-top: 5px; */
+    width: 390px;
+    height: 300px;
+    color: black;
+    /* margin-left: 10px; */
+    margin-right: 10px;
+}
+.titlehero{
+    position: absolute;
+    font-size: 32px;
+    color: var(--color3);
+    right: 90px;
+    font-family: var(--roboto);
+}
+.herobutton{
+    position: relative;
+    bottom: 65px;
+    left: 130px;
+    background-color: var(--color4);
+    border-radius: 15px;
+    padding: 0px 10px 0 10px;
+    font-size: 10px;
+    font-family: var(--inter);
+    color: var(--color1);
+}
+.herobutton:hover{
+    background-color: var(--color3);
+}
+.joinbutton{
+    margin-top: 30px;
+    font-family: var(--roboto);
+    padding: 0px 10px 0 10px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #E7FFA5;
+    color: var(--color2);
+}
+.jointext{
+    margin-top: 50px;
+    font-family: var(--inter);
+    text-align: center;
+}
+.jointext:hover{
+    background-color: var(--color1);
+}
+.evenlink{
+    color: var(--color3);
+    text-decoration: none;
+}
+h4{
+    color: var(--color1);
+    font-family: var(--roboto);
+}
+.eventtext{
+    margin-top: 40px;
+    font-family: var(--inter);
+}
+.castle{
+    width: 140px;
+}
+.email, .number, .spottext1{
+
+margin: 0 0;
+}
+.email{
+    margin-top: 5px;
+}
+

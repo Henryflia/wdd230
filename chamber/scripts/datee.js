@@ -14,3 +14,9 @@ year.innerHTML = new Date().getFullYear()
 document.querySelector(
 	"#lastModified"
 ).textContent = `Last Modification: ${document.lastModified}`;
+
+// banner
+
+if (now.getDay() === 1 || now.getDay() === 2) {
+  document.getElementById("banner").style.display = "block";
+}

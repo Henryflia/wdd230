@@ -12,6 +12,7 @@
     <script src="scripts/datee.js" defer></script>
     <script src="scripts/hamberguer.js" defer></script>
     <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 </head>
@@ -21,13 +22,13 @@
             <img class="logo" src="images/logo.webp" alt="Logo">
             <h1 class="title">Santo Domingo</h1>
             <h2 class="title2">Chamber of Commerce</h2>
-            <h2 class="date"></h2>
             <div class="icon">
                 <img class="icons" src="images/facebook.png" alt="">
                 <img class="icons" src="images/instagram.png" alt="">
                 <img class="icons" src="images/twitter.png" alt="">
                 <img class="icons" src="images/linkedin.png" alt="">
             </div>
+            <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
 
         </div>
         <div id="banner">
@@ -37,8 +38,8 @@
         <nav>
             <ul class="navigation">
                 <li><a id="menu" href="#"></a></li>
-                <li class="home"><a href="">Home</a></li>
-                <li class="discover"><a href="">Discover</a></li>
+                <li class="home"><a href="./index.html">Home</a></li>
+                <li class="discover"><a href="./discover.html">Discover</a></li>
                 <li class="directory"><a href="">Directory</a></li>
                 <li><a href="">Join</a></li>
                 <li class="contact"><a href="">Contact</a></li>
@@ -51,12 +52,12 @@
         <div class="hero">
             <h1 class="titlehero">Welcome to Santo Domingo</h1>
             <picture>
-                <source media="(max-width: 200px)" srcset="images/wdd230-org200.jpg">
-                <source media="(max-width: 500px)" srcset="images/wdd230-org500.jpg">
-                <source media="(max-width: 800px)" srcset="images/wdd230-org800.jpg">
-                <img class="heroimg" src="images/wdd230-org.jpg" alt="hero img by Anthonio Camilo Grullon">
+                <source media="(max-width: 200px)" srcset="images/hero200.jpg">
+                <source media="(max-width: 500px)" srcset="images/hero500.jpg">
+                <source media="(max-width: 800px)" srcset="images/hero800.jpg">
+                <img class="heroimg" src="images/hero.jpg" alt="hero img by Anthonio Camilo Grullon">
             </picture>
-            <button class="herobutton"><h2>Join the Chamber</h2></button>
+            <button class="herobutton"><span class="jointt">Join the Chamber</span></button>
         </div>
         <div class="event">
             <h2>Ribbon Cutting</h2>
@@ -73,7 +74,7 @@
             <p>Wind Chill: <span id="windchill"></span></p>
         </div>
         <div class="join">
-            <button class="joinbutton"><h4>Join the Chamber</h4></button>
+            <button class="joinbutton"><span class="jointt">Join the Chamber</span></button>
             <P class="jointext">jawhbdjabdjhbahsbdbwidbahhsbdCDCDC
                 aiidianidjnwijndiajnsidjnwijnCECECE
                 wjndijawndijanwijdnija
@@ -96,28 +97,26 @@
             <div class="one">
                 <p>The Palace of Hair</p>
                 <img class="castle" src="images/placeholder.png" alt="">
-                <p class="spottext1">To look like a queen, The Palace of Hair!!</pclass>
+                <p class="spottext1">To look like a queen, The Palace of Hair!!</p>
                         <p class="email">palaceofhair@gmail.com</p>
                         <p class="number">8095501712 | Website</p>
-                    </p>
-                <p></p>
+                
             </div>
             <div class="two">
                 <p>Spotlight two</p>
                 <img class="castle" src="images/placeholder.png" alt="">
-                <p class="spottext1">icjiaj ekjciu saincainc ijnciaunc assjcis
+                <p class="spottext1">icjiaj ekjciu saincainc ijnciaunc assjcis</p>
                     <p class="email">palaceofhair@gmail.com</p>
                     <p class="number">9999909999 | Website</p>
-                </p>
-        
+                
             </div>
             <div class="three">
                 <p>Spotlight three</p>
                 <img class="castle" src="images/placeholder.png" alt="">
-                <p class="spottext1">icjiaj ekjciu saincainc ijnciaunc assjcis
+                <p class="spottext1">icjiaj ekjciu saincainc ijnciaunc assjcis</p>
                     <p class="email">palaceofhair@gmail.com</p>
                     <p class="number">9999909999 | Website</p>
-                </p>
+                
             </div>
         </div>
     </main>
@@ -129,11 +128,11 @@
             <p class="footerpa">La Romana, Republica Dominicana 22000</p>
             <p class="footerpar">8095501712</p>
             <p class="footerparg">superflia2059@gmail.com</p>
-            <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img src="images/location.png"></a>
+            <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img src="images/location.png" alt="location"></a>
             <a class="maplocation" href="https://goo.gl/maps/k6pcomUbF2cxwk16A">Location</a>
         </div>
 
-        <p class="footerinfo">©<spam id="year"></spam> Santo Domingo Chamber| Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"></span></p>
+        <p class="footerinfo"><span id="year">©</span> Santo Domingo Chamber| Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"></span></p>
     </footer>
 </body>
 </html>

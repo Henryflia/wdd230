@@ -8,6 +8,9 @@
     --body: #D7F4F7;
     
 }
+body{
+    background-color: var(--body);
+}
 .header{
     display: grid;
     align-items: center;
@@ -53,7 +56,6 @@
 
 nav {
 	margin: 0 auto;
-	max-width: auto;
 	background-color: var(--color2);
 }
 .navigation {
@@ -101,8 +103,9 @@ nav {
     font-size: 25px;
 }
 .icon{
-    grid-column: 1/3;
-    margin-left: 100px;
+    position: absolute;
+    left: 220px;
+    top: 130px;
 }
 footer{
     display: grid;
@@ -186,9 +189,6 @@ h2{
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    box-shadow: #5c5c5d;
-    
-
 }
 .news{
     border: thin solid var(--color2); 
@@ -282,7 +282,7 @@ main{
     text-align: center;
 }
 a:hover{
-    background-color: var();
+    background-color: var(--color1);
 }
 #banner{
     background-color: var(--color2);
@@ -318,7 +318,7 @@ a:hover{
     left: 130px;
     background-color: var(--color4);
     border-radius: 15px;
-    padding: 0px 10px 0 10px;
+    padding: 5px 10px 5px 10px;
     font-size: 10px;
     font-family: var(--inter);
     color: var(--color1);
@@ -329,7 +329,7 @@ a:hover{
 .joinbutton{
     margin-top: 30px;
     font-family: var(--roboto);
-    padding: 0px 10px 0 10px;
+    padding: 5px 10px 5px 10px;
     border-radius: 15px;
     font-size: 15px;
     background-color: #E7FFA5;
@@ -340,8 +340,8 @@ a:hover{
     font-family: var(--inter);
     text-align: center;
 }
-.jointext:hover{
-    background-color: var(--color1);
+.joinbutton:hover{
+    background-color: var(--color4);
 }
 .evenlink{
     color: var(--color3);
@@ -364,5 +364,38 @@ margin: 0 0;
 }
 .email{
     margin-top: 5px;
+}
+/* ----------- Dicover page----------------- */
+.discover_main{
+    display:grid;
+    grid-template-columns: auto;
+}
+.dimg{
+    width: 420px;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 3px;
+    
+}
+.dimg:hover{
+    box-shadow: 0 0 50px #333;
+}
+.dpic{
+    background-color: var(--color2);
+    border-radius: 20px;
+    margin-top: 2.5px;
+    margin-bottom: 2.5px;
+}
+.dp{
+    margin-top: 0px;
+    margin-bottom: 5px;
+    text-align: left;
+    margin-left: 10px;
+}
+.jointt{
+    font-family: var(--roboto);
+    color: var(--color1);
+    font-size: 20px;
 }
 

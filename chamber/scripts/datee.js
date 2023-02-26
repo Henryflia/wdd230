@@ -18,5 +18,15 @@ document.querySelector(
 // banner
 
 if (now.getDay() === 1 || now.getDay() === 2) {
-  document.getElementById("banner").style.display = "block";
+    document.getElementById("banner").style.display = "block";
 }
+
+// ------------Join Hidden Date-----------
+var d = new Date();
+
+document.getElementById("date").value = d.toDateString();
+
+var hours = d.getHours();
+var mins = d.getMinutes();
+var seconds = d.getSeconds();
+var c = document.getElementById("time").value = hours + ":" + mins + ":" + seconds;

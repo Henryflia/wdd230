@@ -78,7 +78,7 @@
         position: relative;
        
     }
-    main{
+    .index_main{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
@@ -231,5 +231,49 @@
     header .label{
         margin-left: 5px;
     }
+    /* -----------Join Page------------ */
+    
+    body main h1.hjoin{
+        text-align: left;
+        font-size: 40px;
+        margin-left: 10px;
+        display: block;
+    
+    }
+    main form fieldset legend{
+      font-size: 25px;
+    }
+    main form fieldset table th{
+        padding: 25px 5px 25px 5px;
+        font-size: 16px;
 
+    }
+    main form fieldset table td{
+        padding: 20px 10px 20px 10px;
+        font-size: 18px;
+
+    }
+    main form fieldset table td label.radio input{
+        width: 20px;
+        height: 40px;
+        left: 50px
+    }
+    main form fieldset table td label.radio2 input{
+        width: 20px;
+        height: 40px;
+        left: 60px
+    }
+    main form fieldset table td label.radio3 input{
+        width: 20px;
+        height: 40px;
+        left: 55px
+    }
+    main form fieldset table td label.radio4 input{
+        width: 20px;
+        height: 40px;
+        left: 53px
+    }
+    main form .buttomform input{
+        margin-left: 20px;
+    }
 }

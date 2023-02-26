@@ -105,7 +105,7 @@ nav {
 .icon{
     position: absolute;
     left: 220px;
-    top: 130px;
+    top: 110px;
 }
 footer{
     display: grid;
@@ -398,4 +398,188 @@ margin: 0 0;
     color: var(--color1);
     font-size: 20px;
 }
+/*------------Join Page------------*/
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
 
+}
+form label.first{
+    display: block;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(55, 66, 161);
+
+
+}
+form label.first input{
+    display: block;
+    font-size:1rem;
+    border: solid 1px #878787;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #424242;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+legend{
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
+}
+form label.first input:required {
+    border: red solid 1px;
+}
+form label.first input:required:valid {
+    border: green solid 1px;
+}
+table{
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+table tr {
+    font-size: 13px;
+}
+table tr:nth-child(even) {
+	background-color: hsl(0, 0%, 93%, 1);
+}
+.eventj{
+    text-align: left;
+    margin-left: 5px;
+}
+th{
+    font-family: var(--roboto);
+    font-size: 12px;
+}
+td{
+    font-family: var(--inter);
+    font-size: 12px;
+}
+.bronze{
+    
+    background-image: linear-gradient(to right, #cd7f32, #d6bda5);
+    color: hsla(0,0%,100%,1);
+    padding: 12px 5px 12px 5px;
+    
+}
+.silver{
+    background-image: linear-gradient(to right, #c0c0c0, #d5d4d4);
+    color: hsla(0,0%,100%,1);
+    padding: 12px 5px 12px 5px
+    
+}
+.gold{
+    background-image: linear-gradient(to right, #ffd700, #f4eecc);
+    color: rgb(189, 187, 187);
+    padding: 12px 5px 12px 5px
+}
+th, td{
+    border: thin solid gray;
+}
+label.radio{
+    font-family: var(--roboto);
+    color: var(--color2);
+}
+label.radio input{
+    display: block;
+    align-items: center;
+    position: relative;
+    left: 30px
+    
+}
+label.radio2{
+    font-family: var(--roboto);
+    color: var(--color2);
+}
+label.radio2 input{
+    display: block;
+    align-items: center;
+    position: relative;
+    left: 30px
+    
+}
+label.radio3{
+    font-family: var(--roboto);
+    color: var(--color2);
+}
+label.radio4 input{
+    display: block;
+    align-items: center;
+    position: relative;
+    left: 30px
+    
+}
+label.radio4{
+    font-family: var(--roboto);
+    color: var(--color2);
+}
+label.radio3 input{
+    display: block;
+    align-items: center;
+    position: relative;
+    left: 30px
+    
+}
+td{
+    padding: 10px 5px 10px 5px
+}
+.crossmark{
+    font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+.checkmark {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+  }
+.bd input{
+    display: block;
+    width: 100%;
+    height: 24px;
+    font-family: var(--inter);
+    max-width: 20rem;
+    line-height: normal;
+    font-size:1rem;
+    border: solid 1px #878787;
+    border-radius: 4px;
+    color: #424242;
+    background-color: rgba(0,0,0,0.1);
+    padding: .75rem;
+    width: 100%;
+}
+.buttomform input{
+    display: block;
+    padding: .75rem;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 21rem;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--color3);
+    color: var(--color1);
+    font-family: var(--roboto);
+    margin-left: 10px;
+    
+}
+.buttomform input:hover{
+    background-color: var(--color4);
+}
+.hjoin{
+    font-family: var(--roboto);
+    color: var(--color2);
+}
+.thanks{
+    font-family: var(--roboto);
+    color: var(--color2);
+}
+.hjoin2{
+    font-family: var(--roboto);
+    color: var(--color2);
+    text-align: center;
+}

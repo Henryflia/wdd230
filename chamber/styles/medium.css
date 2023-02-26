@@ -125,5 +125,34 @@
         width: 590px;
         height: 400px;
     }
+    /* -----------Join page---------- */
+    fieldset table td label.radio input{
+        position: relative;
+        left: 45px
+    }
+    fieldset table td label.radio {
+        font-size: 16px;
+    }
+     fieldset table td label.radio2 input{
+        position: relative;
+        left: 45px
+    }
+    fieldset table td label.radio2 {
+        font-size: 16px;
+    }
+    fieldset table td label.radio3 input{
+        position: relative;
+        left: 40px
+    }
+    fieldset table td label.radio3 {
+        font-size: 16px;
+    }
+    fieldset table td label.radio4 input{
+        position: relative;
+        left: 40px
+    }
+    fieldset table td label.radio4 {
+        font-size: 16px;
+    }
 
 }

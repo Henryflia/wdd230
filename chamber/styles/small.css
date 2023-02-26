@@ -538,10 +538,8 @@ td{
     color: green;
     font-weight: bold;
   }
-.bd input{
+.bd{
     display: block;
-    width: 100%;
-    height: 24px;
     font-family: var(--inter);
     max-width: 20rem;
     line-height: normal;
@@ -551,7 +549,6 @@ td{
     color: #424242;
     background-color: rgba(0,0,0,0.1);
     padding: .75rem;
-    width: 100%;
 }
 .buttomform input{
     display: block;

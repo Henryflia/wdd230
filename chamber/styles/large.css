@@ -276,4 +276,13 @@
     main form .buttomform input{
         margin-left: 20px;
     }
+    main article.list section{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));;
+    }    
+    main article.list section a{
+        margin-top: 15px
+    }
+
+
 }

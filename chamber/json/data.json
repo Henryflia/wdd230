@@ -1,0 +1,100 @@
+{
+    "business":[ 
+        {
+            "name":"Kingsman",
+            "address":"Francisco Prats Ramírez 149-159",
+            "phone":"(829)-063-2479",
+            "website":"www.kingsman.com",
+            "image":"images/logofile/kingsman.png",
+            "membership":"Gold"
+        },
+        {
+            "name": "Beauty",
+            "address":"C. Victor Garrido Puello 132-130",
+            "phone":"(809)-234-5678",
+            "website":"www.beauty_.com",
+            "image":"images/logofile/beauty.webp",
+            "membership":"Silver"
+        },
+        {
+            "name": "Drivers",
+            "address":"Torre Gaia, C. Luis F. Thomen 68",
+            "phone":"(809)-550-2050",
+            "website":"www.driver_s.com",
+            "image":"images/logofile/drivers.webp",
+            "membership":"Gold"
+        },
+        {
+            "name":"Princess Cupcakes",
+            "address":"C. 10A Fernández 10-6",
+            "phone":"(809)-111-0987",
+            "website":"www.prinsCupcakes.com",
+            "image":"images/logofile/cupcakes.webp",
+            "membership":"Bronze"
+        },
+        {
+            "name": "DeliFruit",
+            "address":"C. Lic. Polibio Díaz 35-45",
+            "phone":"(829)-133-4646",
+            "website":"www.delifruit.com",
+            "image":"images/logofile/delifruit.webp",
+            "membership":"Non-Profit"
+        },
+        {
+            "name": "Eternity",
+            "address":"Casa Mariluz, C. Max Henriquez Ureña 93",
+            "phone":"(809)-156-8934",
+            "website":"www.eternity.com",
+            "image":"images/logofile/eternity.webp",
+            "membership":"Silver"
+        },
+        {
+            "name": "Gym World",
+            "address":"Respaldo 17 3, Santo Domingo 11060",
+            "phone":"(809)-072-3587",
+            "website":"www.GymWorld.com",
+            "image":"images/logofile/gymworld.webp",
+            "membership":"Gold"
+        },
+        {
+            "name": "Library",
+            "address":"Av. Anacaona 43-45",
+            "phone":"(809)-335-3421",
+            "website":"www.Library.com",
+            "image":"images/logofile/library.webp",
+            "membership":"Bronze"
+        },
+        {
+            "name": "My New Home",
+            "address":"Jeic Comercial, Av. Rómulo Betancourt 937",
+            "phone":"(809)-784-2938",
+            "website": "www.MyNewHome.com",
+            "image":"images/logofile/mynewhome.webp",
+            "membership":"Non-Profit"
+        },
+        {
+            "name": "Pet Shop",
+            "address":"C. Las Marías 3-21, Santo Domingo",
+            "phone":"(809)-452-9687",
+            "website":"www.PetShop.com",
+            "image":"images/logofile/petshop.webp",
+            "membership":"Non-Profit"
+        },
+        {
+            "name": "Mike's Tacos",
+            "address":"Av. Dr. Bernardo Correa y Cidrón 22-7",
+            "phone":"(809)-675-1254",
+            "website": "www.mikestacos.com",
+            "image":"images/logofile/tacos.webp",
+            "membership":"Gold"
+        },       
+        {
+            "name": "TecnoLife",
+            "address":"C. Hatuey 123, Santo Domingo",
+            "phone":"(809)-453-3947",
+            "website": "www.tecnolife.com",
+            "image":"images/logofile/tecnolife.webp",
+            "membership":"Silver"
+        }
+    ]
+}

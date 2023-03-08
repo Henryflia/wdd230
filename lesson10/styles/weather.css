@@ -1,0 +1,16 @@
+:root {
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto Slab', sans-serif;
+}
+h1, h2 {
+      font-size: 25px;
+      font-family: var(--roboto);
+      text-decoration: underline;
+      color: rgb(72, 71, 71);
+      border-radius: 10px;
+}
+p, figcaption{
+    font-family: var(--inter);
+    color: rgb(95, 95, 235);
+}
+

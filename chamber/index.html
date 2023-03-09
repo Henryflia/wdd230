@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="styles/small.css">
     <script src="scripts/datee.js" defer></script>
     <script src="scripts/hamberguer.js" defer></script>
-    <script src="scripts/windchill.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
     <script src="scripts/visits.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
@@ -68,10 +68,15 @@
 
         </div>
         <div class="weather">
-            <h2>Weather</h2>
-            <p>Temperature: <span id="temperature">33</span>°F</p>
-            <p>Wind Speed: <span id="windspeed">5</span></p>
-            <p>Wind Chill: <span id="windchill"></span></p>
+            <h2 class="h2weather">Weather</h2>
+            <figure>
+                <img src="" alt="" id="weather-icon" />
+            </figure>
+            <p class="temp"><strong id="currenttemp"></strong></p>
+            <p class="currentcondition"><span id="currentcondition"></span></p>
+            <hr>
+            <p class="speed">Wind Speed: <span id="windspeed"></span> km/h</p>
+            <p class="chill">Wind Chill: <span id="windchill">N/A</span></p>
         </div>
         <div class="join">
             <button class="joinbutton"><span class="jointt">Join the Chamber</span></button>
@@ -128,8 +133,8 @@
             <p class="footerpa">La Romana, Republica Dominicana 22000</p>
             <p class="footerpar">8095501712</p>
             <p class="footerparg">superflia2059@gmail.com</p>
+            <p class="openweather"><a class="openweatherlink" href="https://openweathermap.org/">OpenWeatherMap</a></p>
             <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img src="images/location.png" alt="location"></a>
-            <a class="maplocation" href="https://goo.gl/maps/k6pcomUbF2cxwk16A">Location</a>
         </div>
 
         <p class="footerinfo"><span id="year">©</span> Santo Domingo Chamber| Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"><span class="date"></span></span></p>

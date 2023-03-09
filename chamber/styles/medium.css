@@ -6,17 +6,17 @@
             margin-left: 45px;
             margin-top: 5px;
         }
-        header .title2{
-            text-align: center;
-            font-size: 24px;
-            margin-left: 50px;
-            margin-top: 70px;
+    header .title2{
+        text-align: center;
+        font-size: 24px;
+        margin-left: 50px;
+        margin-top: 70px;
         }
-        header .date{
-            text-align: center;
-            font-size: 16px;
-            margin-left: 40px;
-            margin-top: 115px;
+    header .date{
+        text-align: center;
+        font-size: 16px;
+        margin-left: 40px;
+        margin-top: 115px;
     }
     header .logo{
         width: 20%;
@@ -88,7 +88,10 @@
     }
     main .weather{
         width: 570px;
-        height: 240px;
+        height: 250px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 50% 30%;
     }
     main .spotlight{
         width: 570px;
@@ -119,6 +122,30 @@
         width: 100%;
         height: 100%;
     }
+    main .weather figure img{
+        width: 90%;
+    }
+    main .weather figure img{
+        /* width: 80%; */
+        position: relative;
+        bottom: 30px;
+    }
+    main .weather .currentcondition{
+        grid-row: 2/3;
+    }
+    main .weather hr{
+        margin-top: 15px;
+    }
+    main .weather .speed{
+        margin-top: 20px;
+    }
+    footer div .openweather{
+        margin-left: 50px;
+    }
+
+
+
+    
     /* ---------Discovery Page--------- */
 
     main .dpic .dimg{
@@ -154,5 +181,6 @@
     fieldset table td label.radio4 {
         font-size: 16px;
     }
+
 
 }

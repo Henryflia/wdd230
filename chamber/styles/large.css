@@ -74,7 +74,7 @@
         padding: 0px;
     }
     footer .logo2{
-        max-width: 40%;
+        max-width: 35%;
         position: relative;
        
     }
@@ -136,6 +136,18 @@
         margin-top: 260px;
         position: relative;
         bottom:33px
+    }
+    main .weather figure #weather-icon{
+        width: 100px;
+        margin: 25px 0px 0px 0px;
+    }
+    main .weather .temp #currenttemp{
+        position: relative;
+        bottom: 5px;
+    }
+    main .weather .currentcondition #currentcondition {
+        position: relative;
+        bottom: 20px;
     }
     main .join{
         grid-column: 1/2;

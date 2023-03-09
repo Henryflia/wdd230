@@ -1,8 +1,11 @@
-const currentTemp = document.querySelector('#current-temp');
+const currentTemp = document.querySelector('#currenttemp');
+const currentcond = document.querySelector('#currentcondition');
+const winds = document.querySelector('#windspeed');
+const windc = document.querySelector('#windchill');
 const weatherIcon = document.querySelector('#weather-icon');
-const captionDesc = document.querySelector('figcaption');
+// const captionDesc = document.querySelector('figcaption');
 
-const url = "https://api.openweathermap.org/data/2.5/weather?q=Fairbanks&units=imperial&appid=c52492675b8cb006d3a92aecf168a006"
+const url = "https://api.openweathermap.org/data/2.5/weather?q=Santo Domingo&units=metric&appid=c52492675b8cb006d3a92aecf168a006"
 
 async function apiFetch() {
     try {
@@ -17,18 +20,19 @@ async function apiFetch() {
     } catch (error) {
         console.log(error);
     }
-}
+} 
   
 apiFetch();
 
 function displayResults(weatherdata) {
     console.log(weatherdata)
-    currentTemp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(0)}</strong>`
+    currentTemp.innerHTML = `<strong>${weatherdata.main.temp.toFixed(0)}°C</strong>`
+    winds.innerHTML = `<strong>${weatherdata.wind.speed}</strong>`
+
 
     const iconsrc = `https://openweathermap.org/img/w/${weatherdata.weather[0].icon}.png`;
     const description = weatherdata.weather[0].description;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', description);
-    weatherIcon.setAttribute('loading', 'lazy')
-    captionDesc.textContent = description.toUpperCase();
+    currentcond.innerHTML = `<strong>${description.toUpperCase()}</strong>`;
 }

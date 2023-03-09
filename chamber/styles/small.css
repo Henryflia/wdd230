@@ -1,10 +1,10 @@
 :root {
     --inter: 'Inter', sans-serif;
     --roboto: 'Roboto Slab', sans-serif;
-    --color1: #5386E4;
-    --color2: #4C4B63;
+    --color1: #73A6FF;
+    --color2: #1A1827;
     --color3: #E7FFA5;
-    --color4: #E9E9E9;
+    --color4: #BEBCBC;
     --body: #D7F4F7;
     
 }
@@ -131,6 +131,7 @@ footer{
     grid-row: 1/2;
     margin-top: 0px;
     margin-left: 130px;
+    margin-bottom: 0px;
 }
 .footerpa{
     grid-column: 1/3;
@@ -143,12 +144,14 @@ footer{
     grid-row: 1/2;
     margin-top: 0px;
     margin-left: 130px;
+    margin-bottom: 0px;
 }
 .footerparg{
     grid-column: 1/3;
     grid-row: 1/2;
     margin-top: 0px;
     margin-left: 130px;
+    margin-bottom: 0px;
 }
 p{
     font-family: var(--inter);
@@ -234,6 +237,9 @@ h2{
     color: black;
     margin-left: 10px;
     margin-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20% 50% 20%;
 }
 .spotlight{
     border: thin solid var(--color2); 
@@ -299,11 +305,9 @@ a:hover{
 }
 .heroimg{
     border: thin solid var(--color2); 
-    /* margin-top: 5px; */
     width: 390px;
     height: 300px;
     color: black;
-    /* margin-left: 10px; */
     margin-right: 10px;
 }
 .titlehero{
@@ -360,11 +364,60 @@ h4{
     width: 140px;
 }
 .email, .number, .spottext1{
-
-margin: 0 0;
+    margin: 0 0;
 }
 .email{
     margin-top: 5px;
+}
+
+figure{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+figure img{
+    width: 100%;
+    margin-left: 20px;
+   
+}
+.weather .temp{
+    position: relative;
+    font-size: 30px;
+    margin: 0 auto;
+    right: 30px;
+    top: 45px;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    height: 20px;
+}
+.weather .currentcondition{
+    grid-column: 1/3;
+    text-align: center;
+    grid-row: 2/3;
+    margin: 0 auto;
+    height: 20px;
+    position: relative;
+    top: 120px;
+}
+.weather .speed{
+    grid-column: 1/3;
+    grid-row: 3/4;
+}
+.weather .chill{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 45px;
+}
+.h2weather{
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+    grid-column: 1/3;
+}
+hr{
+    border-top: thin solid black;
+    grid-column: 1/3;
+    width: 90%;
+    grid-row: 3/4
 }
 /* ----------- Dicover page----------------- */
 .discover_main{
@@ -399,7 +452,15 @@ margin: 0 0;
     color: var(--color1);
     font-size: 20px;
 }
+.openweatherlink{
+    color: var(--color1);
+    margin-left: 130px;
+}
+
+
+
 /*------------Join Page------------*/
+
 form fieldset{
     margin: 2rem 0;
     border: 1px solid #445ba9;

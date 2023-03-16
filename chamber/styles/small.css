@@ -84,7 +84,7 @@ nav {
 }
 
 #menu::before {
-	content: "≡";
+	/* content: "≡"; */
 	font-size: 2rem;
 }
 

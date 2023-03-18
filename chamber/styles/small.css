@@ -454,7 +454,7 @@ hr{
 }
 .jointt{
     font-family: var(--roboto);
-    color: var(--color1);
+    color: #003795;
     font-size: 20px;
 }
 .openweatherlink{

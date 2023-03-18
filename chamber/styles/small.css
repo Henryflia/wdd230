@@ -629,6 +629,7 @@ td{
     color: var(--color1);
     font-family: var(--roboto);
     margin-left: 10px;
+    /* nices */
     
 }
 .buttomform input:hover{

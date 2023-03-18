@@ -295,6 +295,31 @@
     main article.list section a{
         margin-top: 15px
     }
-
-
+    /* --------Contact Page--------- */
+    body main.contact_main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contactinfo{
+        grid-column: 2/3;
+        grid-row: 1/2;
+        position: relative;
+        top: 75px
+    }
+    .divcontact{
+        margin-top: 50px;
+    }
+    .contactform{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin-top: 30px;
+    }
+    .contactadress{
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .contactadress2{
+        margin-top: 0px;
+    
+    }
 }

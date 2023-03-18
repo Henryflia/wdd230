@@ -13,20 +13,21 @@
     <script src="scripts/hamberguer.js" defer></script>
     <script src="scripts/lazyload.js" defer></script>
     <script src="scripts/visits.js" defer></script>
+    <script src="scripts/data.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 </head>
-<body>  
+<body> 
     <header>
         <div class="header">
             <img class="logo" src="images/logo.webp" alt="Logo">
             <h1 class="title">Santo Domingo</h1>
             <h2 class="title2">Chamber of Commerce</h2>
             <div class="icon">
-                <img class="icons" src="images/facebook.png" alt="">
-                <img class="icons" src="images/instagram.png" alt="">
-                <img class="icons" src="images/twitter.png" alt="">
-                <img class="icons" src="images/linkedin.png" alt="">
+                <img class="icons" src="images/facebook.png" alt="Facebook">
+                <img class="icons" src="images/instagram.png" alt="Instagram">
+                <img class="icons" src="images/twitter.png" alt="Twitter">
+                <img class="icons" src="images/linkedin.png" alt="Linkedin">
             </div>
             <p><span class="label">Number of Visits: </span><span id="visits"></span></p>
 
@@ -37,7 +38,7 @@
 
         <nav>
             <ul class="navigation">
-                <li><a id="menu" href="#"></a></li>
+                <li><a id="menu" href="#">c</a></li>
                 <li class="home"><a href="./index.html">Home</a></li>
                 <li class="discover"><a href="./discover.html">Discover</a></li>
                 <li class="directory"><a href="./directory.html">Directory</a></li>
@@ -45,15 +46,39 @@
                 <li class="contact"><a href="./contact.html">Contact</a></li>
             </ul>
         </nav>
-       
-
     </header>
-    <main>
-        <h1 class="hjoin2">Santo Domingo Chamber Application</h1>
-            <p class="thanks">Thanks for applying to create a course for our online library. We will get back to you within a week with a response.</p>
+
+    <main class="contact_main">
+        <h1 class="hcontact">Contact The Chamber</h1>
+        <section class="contactinfo">
+            <div class="divcontact" >   
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3837.3640335595485!2d-68.96974168427645!3d18.426676787408013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf7a616eb2b75f%3A0x90f8a6ab3f21c3f9!2s18%C2%B025'35.9%22N%2068%C2%B058'03.2%22W!5e0!3m2!1sen!2sus!4v1647606505122!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <h1>Address</h1>
+                <p class="contactadress">116 Teofilo Ferry Street</p>
+                <p class="contactadress2">La Romana, Republica Dominicana 22000</p>
+                <h1>Phone</h1>
+                <p>809-550-1712</p>
+                <h1>Email</h1>
+                <p class="contactemail">chambersantodomingo@gmail.com</p>
+            </div>
+        </section>
+        <form class="contactform" method="get" action="thankyou.html">
+            <fieldset>
+                <legend class="hjoin1">Contact Information</legend>
+                <label class="first">First Name* <input type="text" name="fname" required></label>
+                <label class="first">Last Name* <input type="text" name="lname" required></label>
+                <label class="first">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="first">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="first">Mailing Address* <input type="text" name="mailing" placeholder="123 Example Street"></label>
+                <label class="first">Questions/Comments<textarea class="bd" name="question/comments" rows="5" cols="45"></textarea></label>
+            </fieldset>
+            <label class="buttomform"><input type="submit" value="Contact us" class="submitBtn"></label>
+        </form>
+            
     </main>
     <footer>
-        <img class="logo2" src="images/logo.webp" alt=""> 
+        <img class="logo2" src="images/logo.webp" alt="logo"> 
         <div class="footerdiv">
             <h2 class="footertitle">Santo Domingo Chamber of Commerce</h2>
             <p class="footerp">116 Teofilo Ferry Street</p>     
@@ -63,7 +88,7 @@
             <p class="openweather"><a class="openweatherlink" href="https://openweathermap.org/">OpenWeatherMap</a></p>
             <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img src="images/location.png" alt="location"></a>
         </div>
-    
+
         <p class="footerinfo"><span id="year">©</span> Santo Domingo Chamber| Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"><span class="date"></span></span></p>
     </footer>
 </body>

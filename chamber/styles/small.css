@@ -354,7 +354,7 @@ a:hover{
     background-color: var(--color4);
 }
 .evenlink{
-    color: var(--color3);
+    color: var(--color4);
     text-decoration: none;
 }
 h3{
@@ -597,7 +597,7 @@ td{
 }
 .crossmark{
     font-size: 18px;
-    color: red;
+    color: #7D1E1E;
     font-weight: bold;
 }
 .checkmark {

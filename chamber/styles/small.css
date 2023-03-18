@@ -755,3 +755,15 @@ article section a{
 #visits{
     color: black
 }
+.descriptionlabel{
+    text-align: left;
+    margin-left: 10px;
+    font-family: var(--roboto);
+    color: transparent;
+}
+.datelabel{
+    display: none;
+}
+.timelabel{
+    display: none;
+}

@@ -617,7 +617,7 @@ td{
     background-color: rgba(0,0,0,0.1);
     padding: .75rem;
 }
-.buttomform input{
+.buttomform{
     display: block;
     padding: .75rem;
     margin-bottom: 10px;

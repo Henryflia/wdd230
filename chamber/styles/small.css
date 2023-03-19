@@ -6,7 +6,6 @@
     --color3: #1A1827;
     --color4: #BEBCBC;
     --body: #D7F4F7;
-    
 }
 body{
     background-color: var(--body);
@@ -89,11 +88,22 @@ nav {
 }
 
 #menu::before {
-    content: "≡";
 	font-size: 2rem;
 }
+#hamburgerBtn{
+    font-size: 2rem;
+    margin: 0px;
+    
+}
 
-.navigation a:hover, navigation a:active {
+#hamburgerBtn span:nth-child(1),
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+#hamburgerBtn span:nth-child(2),
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+
+
+.navigation a:hover, .navigation a:active {
 	color: white;
 	background-color: var(--color2);
 }
@@ -104,7 +114,6 @@ nav {
 }
 
 .responsive #menu::before {
-	content: "X";
     font-size: 25px;
 }
 .icon{
@@ -205,10 +214,16 @@ h2{
     border: 5px solid var(--color3);
     margin-top: 5px;
     width: 380px;
-    height: 265px;
+    height: 310px;
     margin-left: 10px;
     margin-right: 10px;
     border-radius: 10px;
+}
+.news h2{
+    margin-bottom: 10px;
+}
+.news p{
+    margin-top: 0px;
 }
 .join{
     border: thin solid var(--color2); 
@@ -251,14 +266,14 @@ h2{
     background-color: var(--color2);
     margin-top: 5px;
     width: 380px;
-    height: 940px;
+    height: 650px;
     color: black;
     margin-left: 10px;
     margin-right: 10px;
     border: 5px solid var(--color3);
 }
 .one{
-    border: thin solid var(--color4); 
+  
     background-color: var(--color2);
     margin-top: 5px;
     width: 360px;
@@ -267,26 +282,7 @@ h2{
     margin-left: 10px;
     /* margin-right: 10px; */
 }
-.two{
-    border: thin solid var(--color4); 
-    background-color: var(--color2);
-    margin-top: 5px;
-    width: 360px;
-    height: 300px;
-    color: black;
-    margin-left: 10px;
-    /* margin-right: 10px; */
-}
-.three{
-    border: thin solid var(--color4); 
-    background-color: var(--color2);
-    margin-top: 5px;
-    width: 360px;
-    height: 300px;
-    color: black;
-    margin-left: 10px;
-    /* margin-right: 10px; */
-}
+
 li{
     font-size: 34px;
 }
@@ -354,7 +350,7 @@ a:hover{
     background-color: var(--color4);
 }
 .evenlink{
-    color: var(--color4);
+    color: var(--color1);
     text-decoration: none;
 }
 h3{
@@ -768,3 +764,23 @@ article section a{
 .timelabel{
     display: none;
 }
+article.grid2 section:nth-child(3){
+    display: none;
+}
+article.grid2 section{
+   width: 350px;
+   border: thin solid var(--color4); 
+   margin-top: 5px;
+}
+
+article.grid2 section img{
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    border: thin solid var(--color4);
+    
+    
+ }
+article.grid2 section p{
+    margin: 0px 5px 0px 5px;
+ }

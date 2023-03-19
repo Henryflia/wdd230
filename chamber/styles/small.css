@@ -332,7 +332,10 @@ a:hover{
     margin: 0px;
     color: #003795;
     font-size: 20px;
-    
+
+}
+.grid2 h2{
+    display: none;
 }
 .herobutton:hover{
     background-color: var(--color3);

@@ -93,7 +93,6 @@ nav {
 #hamburgerBtn{
     font-size: 2rem;
     margin: 0px;
-    
 }
 
 #hamburgerBtn span:nth-child(1),
@@ -324,8 +323,8 @@ a:hover{
     left: 130px;
     background-color: var(--color4);
     border-radius: 15px;
-    padding: 5px 10px 5px 10px;
-    font-size: 10px;
+    padding: 10px 15px 10px 15px;
+    font-size: 20px;
     font-family: var(--inter);
     color: var(--color1);
 }
@@ -448,10 +447,11 @@ hr{
     text-align: left;
     margin-left: 10px;
 }
-.jointt{
+.joinbutton .jointt{
     font-family: var(--roboto);
     color: #003795;
     font-size: 20px;
+    text-decoration:none;
 }
 .openweatherlink{
     color: var(--color1);

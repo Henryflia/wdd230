@@ -319,14 +319,17 @@ a:hover{
 }
 .herobutton{
     position: relative;
-    bottom: 65px;
-    left: 130px;
-    background-color: var(--color4);
+    bottom: 60px;
+    left: 100px;
+    background-color: #E7FFA5;
     border-radius: 15px;
-    padding: 10px 15px 10px 15px;
-    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
     font-family: var(--inter);
-    color: var(--color2);
+    color: #003795;
+}
+.herobutton span h2{
+    margin: 0px;
 }
 .herobutton:hover{
     background-color: var(--color3);

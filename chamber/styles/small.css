@@ -326,7 +326,7 @@ a:hover{
     padding: 10px 15px 10px 15px;
     font-size: 20px;
     font-family: var(--inter);
-    color: var(--color1);
+    color: var(--color2);
 }
 .herobutton:hover{
     background-color: var(--color3);

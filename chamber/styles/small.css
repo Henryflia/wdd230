@@ -328,9 +328,11 @@ a:hover{
     font-family: var(--inter);
    
 }
-.herobutton span h2{
+.herobutton span{
     margin: 0px;
-    color: #003795
+    color: #003795;
+    font-size: 20px;
+    
 }
 .herobutton:hover{
     background-color: var(--color3);

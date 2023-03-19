@@ -724,7 +724,6 @@ article section a{
 .contactinfo{
     background-color: var(--color2);
     text-align: left;
-    margin-left: 10px auto;
     margin-top: 10px;
     height: 670px;
     border-radius: 5px;

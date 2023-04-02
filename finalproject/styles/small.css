@@ -1,0 +1,140 @@
+:root{
+    --merriweather: 'Merriweather', serif;
+    --nunito: 'Nunito', sans-serif;
+    --color1: #554891;
+    --color2: #2C699A;
+    --color3: #0DB39E;
+    --color4: #16DB93;
+    --color5: #83E377;
+    --color6: #B9E769;
+    --color7: #EFEA5A;
+    --color8: #F29E4C;
+    /* --body: #D7F4F7; */
+}
+body{
+    background-color: var();
+}
+.index_main{
+    text-align: center;
+}
+header{
+    background-color: var(--color7);
+    align-items: center;
+    padding: 0px;
+    font-family: var(--merriweather);
+}
+nav {
+	margin: 0 auto;
+	background-color: var(--color3);
+}
+.navigation {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+    background-color: var(--color7);
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li{
+	display: none;
+}
+.navigation li#menu {
+    color: transparent;
+  }
+.navigation a {
+	display: block;
+	padding: 1rem;
+	text-align: right;
+	text-decoration: none;
+	color: #FFFF;
+	font-weight: 700;
+	transition: 0.5s;
+	font-size: clamp(1.5rem, 2vmin, 1.5rem);
+    font-family: var(--merriweather);
+ 
+
+}
+.navigation #menu{
+    padding: 4rem 1rem 4rem 0;
+    color: var(--color2);
+
+}
+.navigation .home, .navigation .fresh, .navigation .aboutus{
+    border-style: solid;
+    border-width: thin;
+    border-color: #FFFF;
+    
+    background-color: var(--color3);
+
+}
+
+
+#menu::before {
+	font-size: 2rem;
+}
+#hamburgerBtn{
+    font-size: 2rem;
+    margin: 0px;
+    float: right;
+}
+
+#hamburgerBtn span:nth-child(1),
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+#hamburgerBtn span:nth-child(2),
+#hamburgerBtn.open span:nth-child(1) {display: none;} 
+
+.navigation a:hover, .navigation a:active {
+	color: var(--color1);
+	background-color: var(--color7);
+}
+
+
+.responsive li {
+	display: block;
+}
+
+.responsive #menu::before {
+    font-size: 25px;
+}
+.icon{
+    /* position: absolute;
+    left: 220px;
+    top: 110px; */
+    float: right;
+    /* padding: 100px; */
+    /* margin-left: 110px; */
+
+} 
+.logo{
+    position: absolute;
+    width: 130px;
+}
+.fruits{
+    width: 100%;
+}
+.truck{
+    width: 100%;
+    margin-top: 10px;
+}
+.juice{
+    width: 100%;
+}
+.logo2{
+    width: 200px;
+}
+h1{
+    font-family: var(--merriweather);
+}
+p{
+    font-family: var(--nunito);
+}
+.weather{
+    border: 5px solid var(--color3);
+    background-color: var(--color6);
+}
+footer{
+    margin-top: 10px;
+    background-color: var(--color3);
+}

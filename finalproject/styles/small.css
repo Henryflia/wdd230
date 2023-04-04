@@ -25,7 +25,7 @@ header{
 }
 nav {
 	margin: 0 auto;
-	background-color: var(--color3);
+	background-color: var(--color7);
 }
 .navigation {
 	list-style: none;
@@ -134,7 +134,73 @@ p{
     border: 5px solid var(--color3);
     background-color: var(--color6);
 }
+#weather-icon{
+    width: 100px;
+}
 footer{
     margin-top: 10px;
     background-color: var(--color3);
+}
+.footerdiv{
+    margin-left: 10px;
+}
+.footerdiv h1{
+    font-family: var(--merriweather);
+}
+.footerdiv p{
+    font-family: var(--nunito);
+}
+.locationimg{
+    width: 60px;
+}
+.vertical{
+    display: none;
+}
+.juicebutton{
+    padding: 10px 10px 10px 10px;
+    background-color: var(--color8);
+    border: 5px solid var(--color7);
+    border-radius: 10px;
+}
+.juicebutton:hover{
+    background-color: var(--color7);
+}
+.footerdiv{
+    color: white;
+}
+/* ----------Fresh Page------------- */
+
+
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+
+}
+form label.first{
+    display: block;
+    padding-top: 18px;
+    text-align: left;
+    font-size: 15px;
+    color: rgb(55, 66, 161);
+
+
+}
+form label.first input{
+    display: block;
+    font-size:1rem;
+    border: solid 1px #878787;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #424242;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+legend{
+    text-align: left;
+    padding: 10px;
+    font-size: 18px;
 }

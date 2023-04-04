@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="styles/small.css">
     <script src="scripts/weather.js" defer></script>
     <script src="scripts/hamberguer.js" defer></script>
+    <script src="scripts/datee.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 </head>
@@ -56,9 +57,9 @@
             ashdbiwbdiabsidjbwhj
             aiishbdiwbidbwibaibs
         </p>
-        <button><h2>Make Your Juice</h2></button>
+        <button class="juicebutton" onclick="window.location.href='./fresh.html'"><strong class="make">Make Your Juice</strong></button>
         <img class="truck" src="images/truck.jpg" alt="truck">
-        <div>
+        <div class="infowe">
             <h1>Information:</h1>
             <p>ewcuwecuhbwudhcbw
                 wdhcbwuhdbcuhwudcb
@@ -75,13 +76,14 @@
                 <h2 class="temp"><strong id="currenttemp"></strong>.</h2>
                 <p class="currentcondition"><span id="currentcondition"></span></p>
                 <hr>
-                <p class="speed">Wind Speed: <span id="windspeed"></span> km/h</p>
-                <p class="chill">Wind Chill: <span id="windchill">N/A</span></p>
+                <p class="humidity">Humidity: <span id="humi"></span>%</p>
+
             </div>
         </div>
     </main>
     <footer>
         <img class="logo2" src="images/logo.webp" alt=""> 
+        <hr class="vertical">
         <div class="footerdiv">
             <h2 class="footertitle">Bountiful Foods</h2>
             <p class="footerp">116 Teofilo Ferry Street</p>     
@@ -89,10 +91,10 @@
             <p class="footerpar">8095501712</p>
             <p class="footerparg">superflia2059@gmail.com</p>
             <p class="openweather"><a class="openweatherlink" href="https://openweathermap.org/">OpenWeatherMap</a></p>
-            <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img src="images/location.png" alt="location"></a>
+            <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img class="locationimg" src="images/location.png" alt="location"></a>
         </div>
 
-        <p class="footerinfo"><span id="year">©</span> Santo Domingo Chamber| Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"><span class="date"></span></span></p>
+        <p class="footerinfo"><span id="year">©</span>  Bountiful Foods | Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"><span class="date"></span></span></p>
     </footer>
 </body>
 </html>

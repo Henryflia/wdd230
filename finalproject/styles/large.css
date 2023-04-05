@@ -91,4 +91,16 @@
     body footer{
         margin-top: 30px;
     }
+    /* ------About Us page------ */
+    .iframe{
+        max-width: 510px;
+        max-height: 450px;
+    }
+    main div iframe{
+        width: 510px;
+        max-height: 450px;
+    }
+    .contactdiv{
+        max-height: 447px;
+    }
 } 

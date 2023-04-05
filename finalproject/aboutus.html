@@ -4,9 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bountiful Food</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <script src="scripts/hamberguer.js" defer></script>
+    <script src="scripts/datee.js" defer></script>
+    <script src="scripts/fruit.js" defer></script>
+    <!-- <script src="scripts/outputarea.js" defer></script> -->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
 </head>
-<body>
-    <p>dsd</p>
+<body>  
+    <header>
+        <!-- <div class="header"> -->
+            <div class="icon">
+                <img class="icons" src="images/facebook.png" alt="facebook">
+                <img class="icons" src="images/instagram.png" alt="instagram">
+                <img class="icons" src="images/twitter.png" alt="twitter">
+                <img class="icons" src="images/linkedin.png" alt="linkedin">
+            </div>
+            <nav>
+                <ul class="navigation">
+                    <li>
+                        <img class="logo" src="images/logo.webp" alt="Logo">
+                        <a id="menu" href="#">
+                        <p id="hamburgerBtn">
+                            <span>☰</span>
+                            <span>X</span>
+                        </p>
+                    </a></li>
+                    <li class="home"><a href="./index.html">Home</a></li>
+                    <li class="fresh"><a href="./fresh.html">Fresh</a></li>
+                    <li class="aboutus"><a href="./aboutus.html">About Us</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main class="aboutus_main">
+        <div class="abouttext">
+            <p><strong>Bountiful Foods</strong> is a small business that has been serving the coastal area from Los Angeles to San Diego since its establishment in Carlsbad, California. The company has built a reputation for specializing in organic, locally grown foods and providing fresh and healthy food options to the local population and tourists visiting the coastal areas.</p>
+
+            <p>The company was founded with a passion for providing nutritious food options that support healthy living. Bountiful Foods sells fruits and produce directly from local farmers in the area, ensuring that customers have access to the freshest and highest-quality produce available. In addition, the company uses some national and international suppliers to offer a wider range of options to its customers.</p>
+    
+            <p>Bountiful Foods has a storefront in Carlsbad, as well as many food trucks that cater to walk-in traffic and deliver orders through phone and website. With a focus on convenience and healthy eating, the company offers made-to-order fruit drinks and fruit bags, ensuring that customers can easily get the nutrients they need on the go. Overall, Bountiful Foods has been an integral part of the local community for many years, providing fresh, healthy, and organic food options that support healthy living.</p>
+        </div>
+        <div class="iframe" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3342.130090790783!2d-117.29264019999998!3d33.1056636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc7335dd6c4d61%3A0x2bc8e1cbe6807d95!2s1336%20Bullrush%20Ct%2C%20Carlsbad%2C%20CA%2092011%2C%20USA!5e0!3m2!1sen!2sdo!4v1680719608532!5m2!1sen!2sdo" width="650" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+        </div>
+        <div class="contactdiv">
+            <h2>Contact Us</h2>
+            <h3>Address: </h3>
+            <p>1336 Bullrush Ct
+                1336 Bullrush Ct, Carlsbad, CA 92011, USA
+            </p>
+            <h3>Email: </h3>
+            <p>bountiful_food@gmail.com</p>
+            <h3>Phone: </h3>
+            <p>+1 760-454-3524 </p>
+        </div>
+
+    </main>
+    <footer>
+        <img class="logo2" src="images/logo.webp" alt=""> 
+        <hr class="vertical">
+        <div class="footerdiv">
+            <h2 class="footertitle">Bountiful Foods</h2>
+            <p class="footerp">1336 Bullrush Ct</p>     
+            <p class="footerpa">1336 Bullrush Ct, Carlsbad, CA 92011, USA</p>
+            <p class="footerpar">+1 760-454-3524 </p>
+            <p class="footerparg">bountiful_food@gmail.com</p>
+            <p class="openweather"><a class="openweatherlink" href="https://openweathermap.org/">OpenWeatherMap</a></p>
+            <a class="location" href="https://goo.gl/maps/k6pcomUbF2cxwk16A"><img class="locationimg" src="images/location.png" alt="location"></a>
+        </div>
+
+        <p class="footerinfo"><span id="year">©</span>  Bountiful Foods | Henry T. Familia Arroyo | WDD 230 Project | <span id="lastModified"><span class="date"></span></span></p>
+    </footer>
 </body>
 </html>

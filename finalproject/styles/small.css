@@ -11,6 +11,9 @@
     --color8: #F29E4C;
     /* --body: #D7F4F7; */
 }
+body{
+  background-color: rgb(255, 255, 227);
+}
 .index_main{
     text-align: center;
 }
@@ -157,7 +160,21 @@ footer{
     background-color: var(--color7);
 }
 .footerdiv{
-    color: white;
+    color: black;
+}
+.openweatherlink{
+  color: var(--color7);
+}
+.infoindex{
+  margin: 10px;
+
+}
+h1.infoindex{
+  color: var(--color2);
+}
+.info{
+  border: 3px solid var(--color6);
+  background-color: var(--color4);
 }
 /* ----------Fresh Page------------- */
 
@@ -175,57 +192,58 @@ form label.first input{
 
 .fresh_main {
     /* align-items: center; */
-    margin-top: 20px;
-  }
+  margin-top: 20px;
+}
   
 .hfresh {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 20px;
-  }
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 20px;
+}
   
 .hfresh1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-  }
+  font-size: 24px;
+  margin-bottom: 20px;
+}
   
 #drinkform {
-    width: 80%;
-    max-width: 600px;
-    border: 1px solid var(--color6);
-    padding: 25px 50px 25px 5px;
-  }
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid var(--color6);
+  padding: 25px 50px 25px 5px;
+  background-color: var(--color8);
+
+}
 fieldset{
-    background-color: var(--color8);
-  }
+}
 .first {
-    display: block;
-    margin-bottom: 15px;
-  }
+  display: block;
+  margin-bottom: 15px;
+}
   
 label {
-    font-size: 18px;
-  }
+  font-size: 18px;
+}
   
 input#firstn, input#emails, input#phones, select, textarea {
-    font-size: 18px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-top: 5px;
-  }
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+}
   
-  input#firstn:focus, input#emails:focus, input#phones:focus, select:focus, textarea:focus {
-    border: 1px solid var(--color1);
-    outline: none;
-  }
+input#firstn:focus, input#emails:focus, input#phones:focus, select:focus, textarea:focus {
+  border: 1px solid var(--color1);
+  outline: none;
+}
   
-  textarea {
+textarea {
     resize: vertical;
     height: auto;
-  }
+}
   
-  button[type="submit"] {
+button.freshbutton{
     background-color: var(--color1);
     color: #fff;
     border: none;
@@ -235,13 +253,13 @@ input#firstn, input#emails, input#phones, select, textarea {
     margin-top: 20px;
     cursor: pointer;
     display: block;
-  }
+}
   
-  button[type="submit"]:hover {
+button.freshbutton:hover {
     background-color: var(--color1);
-  }
+}
 
-  select {
+select {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -250,13 +268,45 @@ input#firstn, input#emails, input#phones, select, textarea {
     background-position: right 10px center;
     background-size: 20px;
     padding-right: 30px;
-  }
+}
   
-  select::-ms-expand {
+select::-ms-expand {
     display: none;
-  }
-  #output{
+}
+#output{
     border: 1px solid var(--color6);
     padding: 0px 45px 0px 5px;
     width: 248px;
-  }
+}
+  /* ---------About Us Page ------*/
+.abouttext{
+    background-color: var(--color2);
+    text-align: center;
+    padding: 10px;
+}
+
+.abouttext p {
+    color: white;
+    margin: 10px;
+
+}
+.iframe{
+    border: 1px solid var(--color3);
+}
+iframe{
+    width: 100%;
+    max-width: 600px;
+}
+h2, h3{
+    font-family: var(--merriweather);
+}
+.contactdiv{
+    border: 3px solid var(--color7);
+    background-color: #f6f4b8;
+}
+.contactdiv h2,  .contactdiv p,  .contactdiv h3{
+    margin: 10px;
+}
+.contactdiv h2{
+    color: var(--color2);
+}

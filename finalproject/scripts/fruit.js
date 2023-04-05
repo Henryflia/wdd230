@@ -1,5 +1,10 @@
 const url2 = "json/data.json"
 let data;
+let numSpecialtyDrinks = localStorage.getItem('numSpecialtyDrinks');
+if (!numSpecialtyDrinks) {
+  // If not, initialize to 0
+  numSpecialtyDrinks = 0;
+}
 async function getFruitsData() {
     const response = await fetch(url2);
     data = await response.json();
@@ -46,7 +51,8 @@ document.getElementById("drinkform").addEventListener("submit", function(event) 
     let totalFat = 0;
     let totalSugar = 0;
     let totalCalories = 0;
-    
+    numSpecialtyDrinks++;
+    localStorage.setItem('numSpecialtyDrinks', numSpecialtyDrinks);
     data.forEach(function(fruit) {
         if (fruit.name === fruit1) {
             totalCarbs += fruit.nutritions.carbohydrates;
@@ -90,8 +96,9 @@ document.getElementById("drinkform").addEventListener("submit", function(event) 
     outputString += "<p><strong>Total Calories:</strong> " + totalCalories + "cal</p>";
 
     document.getElementById("output").innerHTML = outputString;
-});
+    
 
+});
 
 
 

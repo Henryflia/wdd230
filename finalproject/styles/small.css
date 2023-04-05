@@ -99,13 +99,7 @@ nav {
     font-size: 25px;
 }
 .icon{
-    /* position: absolute;
-    left: 220px;
-    top: 110px; */
     float: right;
-    /* padding: 100px; */
-    /* margin-left: 110px; */
-
 } 
 .logo{
     position: absolute;
@@ -170,37 +164,102 @@ footer{
 }
 /* ----------Fresh Page------------- */
 
-
-
-form fieldset{
-    margin: 2rem 0;
-    border: 1px solid #445ba9;
-    border-radius: 10px;
-    padding: .5rem 2%;
-
-}
-form label.first{
-    display: block;
-    padding-top: 18px;
-    text-align: left;
-    font-size: 15px;
-    color: rgb(55, 66, 161);
-
-
-}
 form label.first input{
     display: block;
     font-size:1rem;
-    border: solid 1px #878787;
+    border: solid 1px var(--color7);
     border-radius: 4px;
     padding: .75rem;
     color: #424242;
     width: 100%;
-    max-width: 20rem;
+    max-width: 15rem;
     background-color: rgba(0,0,0,0.1);
 }
-legend{
-    text-align: left;
-    padding: 10px;
+
+.fresh_main {
+    /* align-items: center; */
+    margin-top: 20px;
+  }
+  
+.hfresh {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+.hfresh1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+#drinkform {
+    width: 80%;
+    max-width: 600px;
+    border: 1px solid var(--color6);
+    padding: 25px 50px 25px 5px;
+  }
+fieldset{
+    background-color: var(--color8);
+  }
+.first {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+label {
     font-size: 18px;
-}
+  }
+  
+input#firstn, input#emails, input#phones, select, textarea {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+  }
+  
+  input#firstn:focus, input#emails:focus, input#phones:focus, select:focus, textarea:focus {
+    border: 1px solid var(--color1);
+    outline: none;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: auto;
+  }
+  
+  button[type="submit"] {
+    background-color: var(--color1);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: block;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: var(--color1);
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-image: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-512.png');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 20px;
+    padding-right: 30px;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  #output{
+    border: 1px solid var(--color6);
+    padding: 0px 45px 0px 5px;
+    width: 248px;
+  }

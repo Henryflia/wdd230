@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"> -->
     <link rel="stylesheet" href="styles/large.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/small.css">
-    <script src="scripts/weather.js" defer></script>
     <script src="scripts/hamberguer.js" defer></script>
     <script src="scripts/datee.js" defer></script>
     <script src="scripts/fruit.js" defer></script>
+    <!-- <script src="scripts/outputarea.js" defer></script> -->
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Nunito:wght@300&display=swap" rel="stylesheet">
     <link rel="icon" href="favicon.ico">
 </head>
@@ -42,17 +42,24 @@
             </nav>
     </header>
     <main class="fresh_main">
-        <h1 class="hjoin">Make Your Own Juice</h1>
-        <!-- <form method="get" action="thankyou.html"> -->
+        <h1 class="hfresh">Make Your Own Juice</h1>
+
+        <form id="drinkform">
             <fieldset>
-                <legend class="hjoin1">Applicant Information</legend>
-                <label class="first">First Name* <input type="text" name="fname" required></label>
-                <label class="first">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                <label class="first">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                <label class="first">Select the Fruit* <select id="fruit1" name="firstfruit" required></label>
-                <label class="first">Select the Fruit* <select id="fruit2" name="secondfruit" required></label>
-                <!-- <label class="first">Select the Fruit* <select id="fruit3" name="thirdfruit" required></label> -->
+                <legend class="hfresh1">Order Information</legend>
+                <label class="first">First Name* <input id="firstn" type="text" name="fname" required></label>
+                <label class="first">Email* <input id="emails" type="email" name="email" placeholder="someone@gmail.com" required></label>
+                <label class="first">Phone* <input id="phones" type="tel" name="phone" placeholder="1235551234" required></label>
+                <label class="first">Select the Fruit* <select id="fruit1" name="firstfruit" required> <option value="" disabled selected>Select a Fruit</option></select></label>
+                <label class="first">Select the Fruit* <select id="fruit2" name="secondfruit" required> <option value="" disabled selected>Select a Fruit</option></select></label>
+                <label class="first">Select the Fruit* <select id="fruit3" name="thirdfruit" required> <option value="" disabled selected>Select a Fruit</option></select></label>
+                <label class="first">Special Instructions: </label>
+                <textarea name="instructions" id="inputArea" cols="23" rows="4"></textarea>
+                <button type="submit">Make Your Juice</button>
             </fieldset>
+        </form> 
+        <div id="output"></div>
+
     </main>
     <footer>
         <img class="logo2" src="images/logo.webp" alt=""> 

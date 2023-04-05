@@ -67,6 +67,28 @@
         margin: 8px 0px 8px 500px;
     }
     footer{
-        height: 400px;
+        height: 410px;
+    }
+    footer .footerinfo{
+        margin-top: 0px;
+    }
+    /* ------Fresh Page------ */
+    main div#output{
+        width: 100%;
+        padding: 0px 200px 0px 5px;
+    }
+    main form#drinkform {
+        padding: 0px 300px 0px 5px;
+        margin-left:10px ;
+    }
+    fieldset{
+        width: 100%;
+        padding: 0px 250px 160px 5px;
+        margin-left:10px ;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    body footer{
+        margin-top: 30px;
     }
 } 

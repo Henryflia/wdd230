@@ -11,9 +11,6 @@
     --color8: #F29E4C;
     /* --body: #D7F4F7; */
 }
-body{
-    background-color: var();
-}
 .index_main{
     text-align: center;
 }
